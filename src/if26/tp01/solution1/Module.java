@@ -23,6 +23,14 @@ public class Module
     {
         System.out.println(this.toString());
     }
+
+    public Module(String sigle, String categorie, String parcours, int credit)
+    {
+        this.sigle = sigle;
+        this.categorie = categorie;
+        this.parcours = parcours;
+        this.credit = credit;
+    }
     
     @Override
     public String toString()
