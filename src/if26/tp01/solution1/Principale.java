@@ -1,4 +1,4 @@
-package if26.tp01;
+package if26.tp01.solution1;
 
 import if26.tp01.solution1.Cursus;
 import if26.tp01.solution1.Module;
@@ -22,8 +22,9 @@ public class Principale
         Module gs11 = new Module("GS11", "TM", "Filière", 6);
         Module mtc01 = new Module("MTC01", "HT", "UTT", 4);
         Module jp00 = new Module("JP00", "EC", "UTT", 4);
+        Stage st10 = new Stage("ST10", "ST", "Filière", 30);
         
-        Module t[] = {lo07, gs11, mtc01, jp00};
+        Module t[] = {lo07, gs11, mtc01, jp00, st10.toModule()};
         
         Cursus c = new Cursus();
         

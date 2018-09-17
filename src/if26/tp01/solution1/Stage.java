@@ -37,6 +37,11 @@ public class Stage
     {
         return "Module{" + "sigle=" + sigle + ", categorie=" + categorie + ", parcours=" + parcours + ", credit=" + credit + '}';
     }
+    
+    public Module toModule()
+    {
+        return (new Module(this.sigle, this.categorie, this.parcours, this.credit));
+    }
 
     public String getSigle()
     {
