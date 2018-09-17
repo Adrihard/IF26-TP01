@@ -1,7 +1,7 @@
 package if26.tp01.solution1;
 
 /**
- *
+ * C'est aussi du mauvais travail !
  * @author adrian
  */
 public class Stage

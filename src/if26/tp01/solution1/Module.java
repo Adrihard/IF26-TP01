@@ -1,8 +1,9 @@
 package if26.tp01.solution1;
 
 /**
- *
+ * C'est du mauvais travail !
  * @author adrian
+ * 
  */
 public class Module
 {
