@@ -1,6 +1,8 @@
 package if26.tp01;
 
+import if26.tp01.solution1.Cursus;
 import if26.tp01.solution1.Module;
+import java.util.Arrays;
 
 /**
  *
@@ -23,7 +25,10 @@ public class Principale
         
         Module t[] = {lo07, gs11, mtc01, jp00};
         
-        for (Module m : t)
-            m.affiche();
+        Cursus c = new Cursus();
+        
+        c.addAll(Arrays.asList(t));
+        
+        c.affiche_modules();
     }
 }
