@@ -1,7 +1,5 @@
 package if26.tp01.solution1;
 
-import if26.tp01.solution1.Cursus;
-import if26.tp01.solution1.Module;
 import java.util.Arrays;
 
 /**
