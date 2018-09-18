@@ -3,14 +3,14 @@ package if26.tp01.solution2;
 import java.util.ArrayList;
 
 /**
- *
+ * Constitue une liste d'unités.
  * @author adrian
  */
 public class Cursus extends ArrayList<Unite>
 {
     public void affiche_cursus_categorie(String categorie)
     {
-        this.stream().filter( (m) -> 
+        this.stream().filter( (m) ->
             (
                 categorie == null ||
                 categorie.equals(m.getCategorie())

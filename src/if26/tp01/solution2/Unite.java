@@ -1,7 +1,7 @@
 package if26.tp01.solution2;
 
 /**
- *
+ * Représente une unité d'enseignement (UE).
  * @author adrian
  * 
  */
