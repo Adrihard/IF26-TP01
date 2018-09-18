@@ -23,6 +23,9 @@ public abstract class Unite
         this.categorie = categorie;
         this.parcours = parcours;
         this.credit = credit;
+        
+        assert (sigle.length() <= 5);
+        assert (credit > 0 && credit <= 30);
     }
     
     @Override
