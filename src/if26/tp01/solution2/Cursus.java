@@ -13,7 +13,7 @@ public class Cursus extends ArrayList<Unite>
         this.stream().filter( (m) -> 
             (
                 categorie == null ||
-                m.getCategorie().equals(categorie)
+                categorie.equals(m.getCategorie())
             )
         )
         .forEachOrdered( (m) -> 
