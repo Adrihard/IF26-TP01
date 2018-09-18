@@ -4,7 +4,7 @@ package if26.tp01.solution2;
  *
  * @author adrian
  */
-public class Stage extends Element
+public class Stage extends Unite
 {
     public Stage(String sigle, Parcours parcours, int credit)
     {

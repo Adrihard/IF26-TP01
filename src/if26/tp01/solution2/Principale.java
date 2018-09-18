@@ -17,7 +17,7 @@ public class Principale
         Module jp00 = new Module("JP00", Categorie.EC, Parcours.UTT, 4);
         Stage st10 = new Stage("ST10", Parcours.FIL, 30);
         
-        Element t[] = {lo07, gs11, mtc01, jp00, st10};
+        Unite t[] = {lo07, gs11, mtc01, jp00, st10};
         
         Cursus c = new Cursus();
         

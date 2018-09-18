@@ -4,7 +4,7 @@ package if26.tp01.solution2;
  *
  * @author adrian
  */
-public class Module extends Element
+public class Module extends Unite
 {   
     public Module(String sigle, Categorie categorie, Parcours parcours, int credit)
     {

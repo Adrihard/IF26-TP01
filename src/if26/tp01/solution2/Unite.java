@@ -5,7 +5,7 @@ package if26.tp01.solution2;
  * @author adrian
  * 
  */
-public abstract class Element
+public abstract class Unite
 {
     private String      sigle;
     private Categorie   categorie;
@@ -17,7 +17,7 @@ public abstract class Element
         System.out.println(this.toString());
     }
 
-    public Element(String sigle, Categorie categorie, Parcours parcours, int credit)
+    public Unite(String sigle, Categorie categorie, Parcours parcours, int credit)
     {
         this.sigle = sigle;
         this.categorie = categorie;

@@ -6,7 +6,7 @@ import java.util.ArrayList;
  *
  * @author adrian
  */
-public class Cursus extends ArrayList<Element>
+public class Cursus extends ArrayList<Unite>
 {
     public void affiche_cursus_categorie(String categorie)
     {
