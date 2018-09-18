@@ -6,13 +6,13 @@ package if26.tp01.solution2;
  */
 public class Stage extends Element
 {
-    public Stage(String sigle, String parcours, int credit)
+    public Stage(String sigle, Parcours parcours, int credit)
     {
-        super(sigle, "ST", parcours, credit);
+        super(sigle, Categorie.ST, parcours, credit);
     }
 
     @Override
-    public boolean isSigleSettable()
+    public boolean isCategorieSettable()
     {
         return (false);
     }

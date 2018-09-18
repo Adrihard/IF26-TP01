@@ -7,17 +7,17 @@ package if26.tp01.solution2;
  */
 public abstract class Element
 {
-    private String  sigle;
-    private String  categorie;
-    private String  parcours;
-    private int     credit;
+    private String      sigle;
+    private Categorie   categorie;
+    private Parcours    parcours;
+    private int         credit;
 
     public void affiche()
     {
         System.out.println(this.toString());
     }
 
-    public Element(String sigle, String categorie, String parcours, int credit)
+    public Element(String sigle, Categorie categorie, Parcours parcours, int credit)
     {
         this.sigle = sigle;
         this.categorie = categorie;
@@ -38,30 +38,30 @@ public abstract class Element
     
     public void setSigle(String sigle)
     {
-        if (this.isSigleSettable())
-            this.sigle = sigle;
-        else
-            throw new UnsupportedOperationException("Not supported.");
+        this.sigle = sigle;
     }
     
-    public abstract boolean isSigleSettable();
+    public abstract boolean isCategorieSettable();
     
-    public String getCategorie()
+    public Categorie getCategorie()
     {
         return categorie;
     }
 
-    public void setCategorie(String categorie)
+    public void setCategorie(Categorie categorie)
     {
-        this.categorie = categorie;
+        if (this.isCategorieSettable())
+            this.categorie = categorie;
+        else
+            throw new UnsupportedOperationException("Not supported.");
     }
 
-    public String getParcours()
+    public Parcours getParcours()
     {
         return parcours;
     }
 
-    public void setParcours(String parcours)
+    public void setParcours(Parcours parcours)
     {
         this.parcours = parcours;
     }
